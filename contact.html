@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Head section: contains page title, links to CSS files for styling and responsive design -->
+
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Links for the fluid design -->
+
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="screen and (min-width:1001px)">
+    <link rel="stylesheet" type="text/css" href="tablet.css"
+        media="screen and (min-width:601px) and (max-width:1000px)">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:600px)">
+
+</head>
+
+<body class="bcontact">
+    <!-- Navigation bar: semantic <nav> contains links to other pages -->
+
+    <nav class="navheader">
+
+        <a href="index.html">Home </a>
+        <a href="project.html">Project </a>
+        <a href="about.html">About </a>
+    </nav>
+
+    <!-- Main content container for contact page -->
+
+    <div class="contactwrapper">
+        <!-- putting the header using h1 at the top of page -->
+        <h1 class="contact">Send Any Questions, Comments or Project Related Inquires.</h1>
+
+        <!-- using form and making an action of sending the mail to the following email address as well as keeping the enctype plain text for readability -->
+        <form action="mailto:rashadk0527@gmail.com?subject=Feedback%20Form" enctype="text/plain" method="post"
+            name="Form">
+            <!-- creating labels for each section fname last name, email, phone, message and  -->
+            <p class="Fname">
+
+                <label for="FnameInput">First Name:</label>
+
+                <input type="text" name="Fname" id="FnameInput" size="25" placeholder="i.e Jon" required>
+
+            </p> <br>
+
+            <p class="Lname">
+
+                <label for="LnameInput">Last Name:</label>
+
+                <input type="text" name="Lname" id="LnameInput" size="25" placeholder="i.e Doe" required>
+
+            </p> <br>
+
+            <p class="email">
+
+                <label for="EmailInput">Email:</label>
+
+                <input type="email" name="Email" id="EmailInput" size="30" placeholder="i.e jondoe@gmail.com" required>
+
+            </p> <br>
+
+            <p class="Phone">
+                <label for="PhoneInput"> Phone Number:</label>
+
+                <input type="tel" name="Phone" id="PhoneInput" size="25" placeholder="i.e ###-###-####" required
+                    inputmode="numeric" pattern="\d{3}\d{3}\d{4}">
+
+            </p>
+
+            <p class="Message">
+
+                <label for="MessageInput">Message:</label> <br>
+
+                <textarea name="Message" id="MessageInput" rows="15" cols="85"></textarea>
+                <!-- submit button will only go thorugh if the required inputs are met to avoid junk mail -->
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+<!-- testing for launch not working -->
