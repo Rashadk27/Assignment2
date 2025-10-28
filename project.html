@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- everything in head section wont show on actual page -->
+
+<head>
+
+    <title>Projects Page</title>
+
+    <!-- linking all the sheets for styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- linking the fluid desings sheets for the differnt devices -->
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="screen and (min-width:1001px)">
+    <link rel="stylesheet" type="text/css" href="tablet.css"
+        media="screen and (min-width:601px) and (max-width:1000px)">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:600px)">
+
+</head>
+
+<body>
+    <!-- nav semantic tag used for nav bar at the top  -->
+
+    <nav class="navheader">
+
+        <a href="index.html">Home </a>
+        <a href="About.html">About </a>
+        <a href="contact.html">Contact </a>
+    </nav>
+
+    <!-- main page created here with class to edit wit hcss -->
+    <main class="mainpj">
+        <header>
+            <!-- grouping all the projects using section and artile semantic tags to group them to their captions  -->
+            <h1>My Projects</h1>
+            <p class="four">These are four of my projects I have completed in the past.</p>
+        </header>
+
+        <section class="projectslist">
+            <h2>Project Showcase</h2>
+
+            <article class="project">
+                <h2>Woodworking Project</h2>
+                <header class="projecth"></header>
+                <figure>
+                    <!-- attaching the correct img by sourcing it and setting correct width and height as well as class to add border later on -->
+                    <img src="woodtable.jpeg" width="200" class="wood" height="200" alt="Project 1">
+                    <figcaption>A portable wooden table I built in woodworking class featuring two sturdy legs connected
+                        horizontally at the top and bottom. The design allows it to be folded and stored away easily,
+                        with the tabletop neatly wrapped for a clean finish.</figcaption>
+                </figure>
+            </article>
+
+            <article class="project">
+                <h2>Car Detailing Logo</h2>
+                <header class="projecth"></header>
+                <figure>
+                    <!-- steps above copied but changed img src and caption -->
+                    <img class="rivo" src="rivo.png" width="200" height="200" alt="Project 2">
+                    <figcaption>This is my logo for my car detailing busienss, I desinged it from scratch using adobe
+                        illustrator. I based the colour theme of the Nissan Skyline R34, while also ensuring to use
+                        bright colours to grab people attention. It took my around 3-4 designs to finally end up with
+                        the final product.</figcaption>
+                </figure>
+            </article>
+
+            <article class="project">
+                <h2>Phone Project</h2>
+                <header class="projecth"></header>
+                <figure>
+                    <!-- copied steps above just changed the caption and img src -->
+                    <img src="phone.jpeg" width="200" class="phone" height="200" alt="Project 3">
+                    <figcaption> I repaired a fully destroyed iPhone 7 that had extensive hardware damage. I replaced
+                        the cracked screen, swapped out damaged internal parts, and carefully reassembled the device.
+                        Through the repair process, I was able to restore the phone to full working condition,
+                        showcasing problem solving and technical repair skills</figcaption>
+                </figure>
+            </article>
+
+            <article class="project">
+                <h2>Essay</h2>
+                <header class="projecth"></header>
+                <figure>
+                    <!-- steps above copied -->
+                    <img src="essay.png" width="200" class="essay" height="200" alt="Project 4">
+                    <figcaption> I completed an English project that went beyond just writing an essay. Along with the
+                        written analysis, I created a presentation, delivered a speech, and produced a video analysis to
+                        support my ideas. The project combined research, critical thinking, and communication skills
+                        into a full, multi part assignment.</figcaption>
+                </figure>
+            </article>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
