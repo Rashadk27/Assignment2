@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--head section wont display on web page-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
+
+    <!--The utf-8 line supports all symbols and character from all languages-->
+    <meta charset="utf-8">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Responsive CSS for different screen sizes -->
+
+    <link rel="stylesheet" type="text/css" href="laptop.css" media="screen and (min-width:1001px)">
+    <link rel="stylesheet" type="text/css" href="tablet.css"
+        media="screen and (min-width:601px) and (max-width:1000px)">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:600px)">
+
+</head>
+
+<body>
+
+    <!-- Main wrapper: contains all page content including navbar, main section, and footer -->
+
+    <div id="wrapper">
+
+        <!-- Navigation bar: links to About, Project, and Contact pages -->
+
+        <div class="navbar">
+
+            <a href="about.html">About </a>
+            <a href="project.html">Project </a>
+            <a href="contact.html">Contact </a>
+
+        </div>
 
 
+        <article>
+            <h2></h2>
+            <p class="wlcm">Welcome to my Portfolio</p>
+        </article>
 
 
+        <!-- Footer section: contains contact email and copyright info -->
 
+        <footer class="copyright">
 
+            <p>&copy; 2025 [rashadk0527@gmail.com]. All Rights Reserved.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </footer>
+    </div>
+</body>
 
 </html>
