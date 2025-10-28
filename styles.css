@@ -1,0 +1,217 @@
+/* /* Heading 1 sets main titles to white */
+ 
+
+h1 {
+
+    color: white;
+
+}
+
+/* Heading 2 sets sub titles left aligned white color small size */
+
+h2 {
+    text-align: left;
+    color: white;
+    font-size: 12px;
+
+}
+
+/* Main project section background color light grey */
+
+.mainpj
+{
+
+    background-color: #BFBFBF ;
+}
+
+
+/* Page background color dark teal */
+
+body {
+    background-color: #127369;
+}
+
+/* Wrapper container for content fixed at top full width with padding */
+
+#wrapper {
+    background-color: silver;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+}
+
+/* Navbar shows links in a row aligned to the right with space between */
+
+.navbar {
+    font-size: 25px;
+    /* we have to use the display flex with gap to make links nice and flush
+    text align right does not work with display flex so we have to justify the 
+    content to the end */
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+
+}
+/* img one with margin of 100px and 2px white border */
+.img1 {
+    margin: 100px;
+    border: 2px solid white;
+}
+
+/* Contact heading text black centered bigger font */
+
+.contact {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Background for contact page with diagonal gradient */
+
+.bcontact {
+  background: linear-gradient(45deg, #10403B, #BFBFBF);
+}
+/* making the message box alinged to left as well as trying to keep it centered with bigger font size */
+.Message {
+    text-align: left;
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+
+/* making email box in center with 20 px font size */
+.email {
+    font-size: 20px;
+    text-align: center;
+}
+/* same as email */
+.Lname {
+    font-size: 20px;
+    text-align: center;
+}
+/* same as above */
+.Fname {
+    font-size: 20px;
+    text-align: center;
+}
+/* same as above */
+.Phone {
+    font-size: 20px;
+    text-align: center;
+}
+/* Home page box blue with fixed size */
+
+.homediv {
+
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+
+}
+/* copyright fixed at bottom  */
+.copyright {
+
+    position: fixed;
+    left: 2px;
+    bottom: 0;
+
+
+}
+/* linear gradient going to right  */
+.aboutpg {
+
+  background: linear-gradient(to right, #127369, #10403B);
+}
+/* Navigation header links in row aligned right with black background */
+
+.navheader {
+
+    font-size: 25px;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    background-color: black;
+
+}
+
+.navheader a {
+    color: white;
+
+}
+/* changing caption size for about to 20px for easier readability */
+.aboutcaption {
+
+    font-size: 20px;
+    
+}
+/* bg color changed to white */
+.projectpg {
+
+    background-color: white;
+}
+/* text algined in center with font size of 25px */
+.four {
+
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/* Project container padding around and small left margin */
+
+.project
+
+
+{
+    padding: 50px;
+    margin-left: 20px;
+    
+
+}
+
+/* making the font size larger to make it stand out as a header */
+.projecth
+{
+
+    font-size: larger;
+}
+
+/* giving the border radius as well as the border outline */
+.rivo
+{
+
+    border-radius: 2px;
+    border:2px black solid;
+} 
+/* same as above */
+.wood
+{
+
+    border-radius: 2px;
+    border:2px black solid;
+}
+/* same above */
+.phone 
+
+{
+    border-radius: 2px;
+    border:2px black solid;
+}
+/* same above */
+.essay
+{
+    border-radius: 2px;
+    border:2px black solid;
+}
+
+/* increase of font size */
+.wlcm
+{
+
+    font-size: 20px;
+}
